@@ -3,7 +3,7 @@
 #include <locale.h>
 #include <string.h>
 
-//Funciona em compiladores baixados. Exemplo: DEV C++
+//Funciona em compiladores baixados, por conta da função strlwr(). Exemplo de compiladores: DEV C++
 int main (void)
 {
 	setlocale (LC_ALL, "portuguese") ;
